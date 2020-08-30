@@ -1,0 +1,28 @@
+:root {
+    --cv-text: #142850;
+    --cv-background: #dae1e7;
+    --cv-text-light: #27496d;
+    --cv-accents: #00909e;
+}
+
+body {
+    background: var(--cv-background);
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: var(--cv-accents);
+    border-width: 5px;
+    width: 3%;
+}
+h1,h3 {
+    color: var(--cv-text);
+}
+
+p,li,td {
+    color: var(--cv-text-light);
+}
+
+#cv-avatar {
+    border-radius: 50%;
+}
